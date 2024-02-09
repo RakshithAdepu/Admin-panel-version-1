@@ -42,7 +42,7 @@ function App() {
       navigate("/loginforadmin");
     }
     
-  },[]);
+  },[jwtToken]);
 
   return (
     <div className="App">
