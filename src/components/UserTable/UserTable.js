@@ -1,7 +1,7 @@
 import "./userTable.css";
 import Sidebar from "../Sidebar/Sidebar";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import AddnewFormUserTable from "./AddnewFormUserTable"
 
 const UserTable = () => {

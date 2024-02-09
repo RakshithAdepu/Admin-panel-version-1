@@ -21,6 +21,8 @@ const CategoryTable = () => {
     // Add more data objects as needed
   ]);
 
+  console.log(setData)
+
   const [filteredData, setFilteredData] = useState([...data]);
 
   const handleColumnClick = (columnName) => {

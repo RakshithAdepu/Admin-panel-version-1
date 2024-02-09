@@ -42,7 +42,7 @@ function App() {
       navigate("/loginforadmin");
     }
     
-  }, []);
+  });
 
   return (
     <div className="App">

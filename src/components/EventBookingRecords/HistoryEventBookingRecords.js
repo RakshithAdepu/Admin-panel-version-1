@@ -165,6 +165,8 @@ function HistoryEventBookingRecords() {
   ]);
   const [showForm, setShowForm] = useState(false);
 
+  console.log(setData,showForm, setShowForm)
+
 //   const handleAdd = (newData) => {
 //     setData((prevData) => [...prevData, newData]);
 //     setShowForm(false);
@@ -190,6 +192,8 @@ function HistoryEventBookingRecords() {
   const handleSearch = (event) => {
     setSearchText(event.target.value);
   };
+
+console.log(handleSearch())
 
   const applyFilters = () => {
     let filteredData = data;
