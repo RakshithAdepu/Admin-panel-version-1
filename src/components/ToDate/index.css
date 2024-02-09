@@ -1,0 +1,18 @@
+.Todate{
+
+    background: #FFFFFF;
+    /* soft shadow */
+    
+    box-shadow: 0px 8px 20px rgba(170, 131, 131, 0.25);
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid transparent;
+    height: 2rem;
+    width: 11rem;
+    color: #111111;
+    font-weight: 500;
+    /* margin-right: 55rem; */
+
+   
+}
+

@@ -1,0 +1,305 @@
+.mainContSuperAdminDashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "roboto";
+  background-color: #2a2d2e;
+  width: 100%;
+
+  .dashboardMAinContSuperAdmin {
+    height: auto;
+    width: 70rem;
+    background: #1f1f1f;
+
+    .caldendarContSuperAdmin {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+      height: 3rem;
+    }
+  }
+}
+.titleContSA {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headingINSA {
+  color: #fff;
+}
+.LogoutSA {
+  border: 2px solid #494949;
+  background-color: transparent;
+  height: 2.3rem;
+  width: 8rem;
+  box-shadow: 0px 8px 20px rgba(170, 131, 131, 0.25);
+  border-radius: 20px;
+  color: #fff;
+  margin-left: 39rem;
+}
+
+.toInsuperAdmin {
+  color: #fff;
+}
+
+.ApplybtnInSuperAdmin {
+  height: 2.3rem;
+  width: 5rem;
+  background: #494949;
+  box-shadow: 0px 8px 20px rgba(170, 131, 131, 0.25);
+  border-radius: 20px;
+  color: #fefefe;
+  outline: none;
+  border: 1px solid transparent;
+  margin-left: 2rem;
+}
+
+.totalRevenueSACont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  margin-top: 0.5rem;
+}
+
+.TotalHeadingSA {
+  color: #d9d9d9;
+  font-style: normal;
+  line-height: normal;
+}
+
+.paraSA {
+  color: #1cc102;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -1.2rem;
+}
+
+.RevenueContSA {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 1000;
+  line-height: normal;
+  margin-left: 6rem;
+ 
+}
+
+.AdminCountCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.TitleAdminActiveSA {
+  color: #ececec;
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 18rem;
+}
+
+.circleIconsSA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  background-color: #fff;
+  margin-left: 3rem;
+}
+
+.countSAAdminCount {
+ 
+
+  font-size: 1.4rem;
+  font-weight: 1800;
+  line-height: normal;
+}
+
+
+.remainingContSA{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightDivSA{
+    height: auto;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+
+.leftDivSA{
+    height: 40rem;
+    margin-right: 1rem;
+    width: 22rem;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #2a2d2e 0%, rgba(94, 94, 94, 0.42) 100%);
+}
+
+.rightTopDivSA{
+   
+    height: 35%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.graphContSA{
+height: 25rem;
+width: 43rem;
+border-radius: 10px;
+margin-top: 1rem;
+    background: linear-gradient(180deg, #2a2d2e 0%, rgba(94, 94, 94, 0.42) 100%);
+}
+
+.boxOne{
+    letter-spacing: 0.2rem;
+    height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+    width: 21rem;
+    color: #d9d9d9;
+    margin-top: 0.2rem;
+    /* background-color: #2a2d2e; */
+    border-radius: 10px;
+background: linear-gradient(180deg, #2a2d2e 0%, rgba(94, 94, 94, 0.42) 100%);
+}
+.boxTwo{
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 3.5rem;
+    color: #d9d9d9;
+    width: 21rem;
+    margin-top: 0.7rem;
+    border-radius: 10px;
+background: linear-gradient(180deg, #2a2d2e 0%, rgba(94, 94, 94, 0.42) 100%);
+}
+.boxThree{
+    letter-spacing: 0.1rem;
+    height: 3.5rem;
+    width: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #d9d9d9;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+background: linear-gradient(180deg, #2a2d2e 0%, rgba(94, 94, 94, 0.42) 100%);
+}
+
+.eventSells{
+font-size: 0.8rem;
+font-weight: 1000;
+margin-top: 1rem;
+margin-left: 2rem;
+
+
+
+}
+
+.eventSellsRs{
+font-size: 0.9rem;
+font-weight: 1000;
+margin-bottom: 1rem;
+margin-left: 2rem;
+
+}
+
+.eventSellsOne{
+    font-size: 0.6rem;
+    font-weight: 1000;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    
+    
+    }
+    
+    .eventSellsRsOne{
+    font-size: 0.7rem;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+
+    
+    }
+
+
+    .NotificationSATopTitle{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .paymentTitleSA{
+        color: #ECECEC;
+font-size: 20px;
+font-weight: 1000;
+line-height: normal;
+    }
+
+    .pendingRequestSA{
+        color: #FF6F6F;
+font-size: 12px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.1rem;
+    }
+
+.unorderListSA{
+
+    overflow: auto;
+    height: 33rem;
+    padding: 1rem;
+}
+    .listOrderSA{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .imageLogoSA{
+
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .notificationSAInList{
+
+        color: #D9D9D9;
+font-size: 0.8rem;
+font-weight: 600;
+line-height: normal;
+    }
+
+    

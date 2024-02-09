@@ -1,0 +1,279 @@
+.photographerTableOverallCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .tablePageTitle {
+    text-align: start;
+    font-size: 1.2rem;
+    color: #000412;
+    font-family: Nunito Sans;
+    margin-left: 2rem;
+    padding: 0;
+    height: 1.4rem;
+  }
+  
+  .table-container {
+    width: 70rem;
+    overflow: scroll;
+    height: 43rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f5f5f5;
+  }
+  
+  .table th input,
+  .table th button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .table th input {
+    outline: none;
+    width: 5rem;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .action-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #ddd;
+  }
+  
+  .photographerTableHeading {
+    border: 2px solid rgba(78, 107, 205, 0.5);
+  }
+  
+  .photoTableEachheading {
+    background: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .Verifiedstyle {
+    border: 2px solid #03aa00;
+    border-radius: 10px;
+    background: rgba(3, 170, 0, 0.09);
+    color: #11a030;
+    width: 5rem;
+  }
+  
+  .notVerifiedstyle {
+    border: 2px solid #ff725e;
+    background: rgba(255, 114, 94, 0.09);
+    width: auto;
+    border-radius: 10px;
+    color: #ff725e;
+  }
+  
+  .holdStyles {
+    border-radius: 10px;
+    border: 2px solid rgba(120, 120, 120, 0.66);
+    background: rgba(120, 120, 120, 0.19);
+    width: 5rem;
+    color: #787878a8;
+  }
+  
+  .photographerTableTopCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+    width: 70rem;
+    background-color: #f2f2f2;
+  }
+  
+  .searchBarPhotographerTable {
+    width: 25rem;
+    border: 1px solid transparent;
+    height: 2.2rem;
+    outline: none;
+    color: #676767;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+  }
+  
+  .addNewProfilePhotographerTable {
+    border-radius: 8px;
+    background: #4e6bcd;
+    color: #ffffff;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 30rem;
+  }
+  
+  .downloadButtonForPhotographerTable {
+    color: #4e6bcd;
+    border: none;
+    text-decoration: underline;
+    margin-left: 1rem;
+  }
+
+  .NotAvailPayment{
+color: #AEAEAE;
+border-radius: 10px;
+height: 1.5rem;
+    border: 1px solid #AEAEAE;
+background: rgba(174, 174, 174, 0.25);
+font-size: 0.7rem;
+  }
+
+  .amountInPaymentTable{
+    border-radius: 10px;
+border: 1px solid #03AA00;
+background: rgba(3, 170, 0, 0.25);
+color:#03AA00;
+border-radius: 10px;
+font-size: 0.8rem;
+height: 1.5rem;
+
+
+
+
+
+  }
+
+
+  .dateInPaymentTable{
+    border-radius: 10px;
+   color: #4e6bcd;
+    background: rgba(78, 107, 205, 0.25);
+    font-size: 0.8rem;
+    width: 5rem;
+    height: 1.5rem;
+    border: 1px solid #4E6BCD;
+    
+  }
+  
+  /* ----add new form----- */
+  
+  .add-form-overlay {
+    position: fixed;
+    font-family: "roboto";
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #4e6bcd;
+    border-radius: 20px;
+    overflow: scroll;
+  }
+  
+  .add-form {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .Closepopupfornewentry {
+    border-radius: 8px;
+    background: #ff725e;
+    color: #ffffff;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+  }
+  
+  .addnewFormInPhotographerTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .labelInTheAddnewFormPhototable {
+    color: #676767;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+  
+  .inputstylingforaddnewforphototable {
+    width: 20rem;
+    border: 1px solid #676767;
+    height: 1.3rem;
+    outline: none;
+    color: #676767;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+  }
+  
+  .addNewProfilePhotographerTablebutton {
+    border-radius: 8px;
+    background: #4e6bcd;
+    color: #ffffff;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 30rem;
+  }
+  
+  
+  
+  /* ----animation------ */
+  
+  @keyframes slideleft {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  .tablePageTitle{animation: slideleft 1s ease;}
+  
+  
+  
+  

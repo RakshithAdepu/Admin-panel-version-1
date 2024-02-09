@@ -1,0 +1,208 @@
+.mainContForSuperAdminLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../../../public/Images/loginForSuperAdmin/backgroundImgSuperAdmin.png");
+  }
+  
+  .topContSuper {
+    .adminLogoIcons {
+      height: 5.5vh;
+      transition: transform 0.3s ease 0;
+      
+     
+    }
+  
+    .logoForAdminCont {
+      margin-left: 85vw;
+      margin-top: 5vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center ;
+      align-items: center;
+    }
+    .superPara {
+      font-family: "Nunito Sans";
+      color: white;
+      font-size: 2.4vh;
+      margin-bottom: 2vh !important;
+      transition: transform 0.3s ease 0;
+    }
+  }
+  
+  .LogoCont{
+  
+      display: flex;
+      flex-direction: row;
+      margin-right: 32vw;
+      margin-bottom: 2vh;
+  
+  
+      .logoImg{
+          height: 9vh;
+          margin-top: 4vh;
+  
+      }
+  
+      .myClickerrHeading{
+          font-family: 'Varela Round', sans-serif;
+          color: #F5F5F5;
+        font-size: 5.5vh;
+        margin-left: 1vw;
+        font-weight: 10;
+       
+      }
+  }
+  
+  .loginCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 55vh;
+    width: 50vw;
+  
+    background: #fdfdfd;
+    box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+  
+  .leftSideContSuperAdmin {
+    background-size: cover;
+    height: 35vh;
+    width: 23vw;
+    background-image: url("../../../public/Images/loginForSuperAdmin/Group\ 4286superAdinSideImg.png");
+  }
+  
+  .borderLine {
+    width: 0.1vw;
+    height: 45vh;
+    background: #d9d9d9;
+  }
+  
+  .rightSideCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .adminTitle {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .inputElement {
+    height: 5vh;
+    width: 20vw;
+    background: #fdfdfd;
+    border: 1px solid #a2a2a2;
+    border-radius: 25px;
+    color: #a1a1a1;
+    padding-left: 2vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    outline: none;
+    font-family: "Nunito Sans";
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    transition: transform 0.3s ease 0;
+  }
+  
+  .loginButtonSuperAdmin {
+    background: #FF9141;
+    border-radius: 25px;
+  
+    outline: none;
+    font-family: "Nunito Sans";
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    height: 6vh;
+    width: 22vw;
+    outline: none;
+    border: 1px solid transparent;
+    color: #fdfdfd;
+  }
+  
+
+  /* ---------------------Animation -----------------*/
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .logoImg {
+    animation: rotate 2.5s linear infinite;
+  }
+
+ @keyframes slideleft {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+ 
+  .myClickerrHeading {
+    animation: slideleft 1s ease;
+  } 
+
+
+
+  @keyframes slidetop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+  .loginCont{
+    animation: slidetop 1s ease-in-out;
+  }
+  
+  
+
+  /*---------- transition------------*/
+
+  .inputElement:hover {
+
+    transform: translateY(-4px);
+    
+    }
+
+    .loginButtonSuperAdmin:hover{
+      transform: translateY(5px);
+      background: #ee731b;
+  
+    }
+
+    .adminLogoIcons:hover{
+      transform: translateY(-5px);
+    }
+
+
+    .superPara:hover{
+      transform: translateY(-5px);
+    }

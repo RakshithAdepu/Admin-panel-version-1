@@ -1,0 +1,87 @@
+
+
+
+.listContOuter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100vw;
+    height: 80vh;
+  }
+  
+  @keyframes slideInLeft{
+  
+    from{
+      transform: translateX(-300px);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    animation: slideInRight 1s ease;
+  }
+  
+  @keyframes slideInRight{
+  
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-240px);
+    }
+  }
+  
+  .rowBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    animation: slideInLeft 1s ease;
+  }
+  
+  
+  .headingIntheListCont {
+    font-weight: 600;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 5vh;
+  }
+  
+  .iconSize {
+    width: 10vw;
+    height: 6vh;
+  }
+  
+  
+  .paraInListCont{
+    font-weight: 700;
+    font-size: 2vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  .ListCont {
+    background-color: #c1c1c1;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 5px;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 0.3s ease;
+  
+  }
+  
+  .ListCont:hover{
+  
+    transform: translateY(-20px)
+  }

@@ -1,0 +1,280 @@
+.photographerTableOverallContSA {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+    background: #2a2d2e;
+
+    
+  }
+  
+  .tablePageTitleSA {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: Nunito Sans;
+    margin-left: 2rem;
+    padding: 0;
+    height: 1.4rem;
+   
+  }
+  
+  .table-containerSA {
+    width: fit-content;
+    overflow: scroll;
+    height: 43rem;
+    background-color: #1f1f1f;
+  }
+  
+  .tableSA {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tableSA th,
+  .tableSA td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #2a2d2e;
+    color: #ddd;
+  }
+  
+  .tableSA th {
+    background-color: #1f1f1f;
+    
+  }
+  
+  .tableSA th input,
+  .tableSA th button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ddd;
+  }
+  
+  .tableSA th input {
+    outline: none;
+    width: 5rem;
+  }
+  
+  .tableSA tbody tr:hover {
+    background-color: #2a2d2e;
+  }
+  
+  .profile-imageSA {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .action-buttonSA {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: #ddd;
+    background-color: #3f3f3f;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 5rem;
+  }
+  
+  .action-buttonSA:hover {
+    background-color: #888888;
+  }
+  
+  .photographerTableHeadingSA{
+    border: 2px solid rgba(161, 167, 179, 0.5);
+  }
+  
+  .photoTableEachheadingSA {
+    background: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .VerifiedstyleSA {
+    border: 2px solid #03aa00;
+    border-radius: 10px;
+    background: rgba(3, 170, 0, 0.09);
+    color: #11a030;
+    width: 5rem;
+  }
+  
+  .notVerifiedstyleSA{
+    border: 2px solid #ff725e;
+    background: rgba(255, 114, 94, 0.09);
+    width: 5rem;
+    border-radius: 10px;
+    color: #ff725e;
+  }
+  
+  .holdStylesSA {
+    border-radius: 10px;
+    border: 2px solid rgba(120, 120, 120, 0.66);
+    background: rgba(120, 120, 120, 0.19);
+    width: 5rem;
+    color: #787878a8;
+  }
+  
+  .photographerTableTopContSA {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+    width: 70rem;
+    background-color: #1f1f1f;
+  }
+  
+  .searchBarPhotographerTableSA {
+    width: 25rem;
+    border: 1px solid transparent;
+    height: 2.2rem;
+    outline: none;
+    color: #676767;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+    background: #2a2d2e;
+  }
+  
+  .addNewProfilePhotographerTableSA{
+    border-radius: 8px;
+    background: #797575;
+    color: #ddd;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 30rem;
+  }
+  
+  .downloadButtonForPhotographerTableSA {
+    color: #4e6bcd;
+    border: none;
+    text-decoration: underline;
+    background: #2a2d2e;
+    margin-left: 1rem;
+  }
+  
+  /* ----add new form----- */
+  
+  .add-form-overlaySA {
+    position: fixed;
+    font-family: "roboto";
+    bottom: 10%;
+    right: 20%;
+    width: 50%;
+    height: 80%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2a2d2e ;
+    border: 3px solid #3f3f3f;
+    border-radius: 20px;
+   
+  }
+
+  .addnewFormHeadingSA{
+
+    margin-left: 11rem;
+    color: #ddd;
+  }
+  
+  .add-formSA {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .button-containerSA {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 10rem;
+ 
+  }
+  
+  .ClosepopupfornewentrySA {
+    border-radius: 8px;
+    background: #ff725e;
+    color: #ffffff;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+  }
+  
+  .addnewFormInPhotographerTableSA {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .labelInTheAddnewFormPhototableSA {
+    color: #ddd;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+  
+  .inputstylingforaddnewforphototableSA {
+    width: 20rem;
+    border: 1px solid #676767;
+    height: 2.3rem;
+    outline: none;
+    color: #676767;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+  }
+
+  .inputstylingforaddnewforphototableSAPhoto {
+    width: 20rem;
+    border: 1px solid #676767;
+    height: 2.3rem;
+    outline: none;
+    color: #676767;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .addNewProfilePhotographerTablebuttonSA {
+    border-radius: 8px;
+    background: #4e6bcd;
+    color: #ffffff;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 30rem;
+  }
+  
+  
+  
+  /* ----animation------ */
+  
+  @keyframes slideleft {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  .tablePageTitleSA{animation: slideleft 1s ease;}
+  
+  
+  
+  .imageSAinAdminOrg{
+
+    height: 2rem;
+    width: 2rem;
+  }

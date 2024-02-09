@@ -1,0 +1,232 @@
+.WholeConatinerInCouponsSA{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainContCouponsSuperAdmin{
+    background: #1f1f1f;
+    width: 70rem;
+    height: 40rem;
+}
+
+.CouponsContSA{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows:   1fr 1fr 1fr; 
+ grid-row-gap: 15px;
+overflow: auto;
+    /* border: 1px solid red; */
+margin-top: 5rem;
+    height: 30rem;
+    width: 66rem;
+    margin-left: 1rem;
+}
+
+
+.CouponsSA{
+    border-radius: 18px;
+    height: 9rem;
+    width: 90%;
+    background: linear-gradient(180deg, #EFCC97 0%, rgba(239, 183, 151, 0.81) 100%);
+}
+
+.verticalTitleSA{
+
+    writing-mode: vertical-lr; /* vertical writing from bottom to top */
+    transform: rotate(180deg); /* flip the text to be upright */
+
+}
+
+.couponsInterCont{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.interNestedCouponSA{
+
+   
+    height: 7rem;
+    width: 17.5rem;
+    margin-top: -1.3rem;
+    margin-bottom: -rem;
+    background: #FFF5EF;
+    margin-left: 1.1rem;
+    border-radius: 18px;
+    writing-mode: horizontal-tb; /* vertical writing from bottom to top */
+    transform: rotate(180deg); 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.couponnameSa{
+
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.offerSA{
+    margin-left: 1rem;
+    font-size: 1.9rem;
+
+    margin-top: -1.5rem;
+    margin-bottom:-9px ;
+}
+
+.tAndCSa{
+    margin-left: 1rem;
+    font-size: 0.55rem;
+color: #777;
+}
+
+.hrSA{
+    width: 12rem;
+    margin-right: 3.5rem;
+    color: #777;
+}
+
+
+.couponNumberStyleSA{
+    margin-left: 2rem;
+    font-size: 0.75rem;
+color: #777;
+}
+
+
+.CouponNumberCont{
+
+    writing-mode: vertical-lr; /* vertical writing from bottom to top */
+    transform: rotate(180deg); 
+    margin-left: -5rem;
+    
+}
+
+.hrVerticalSA{
+    height: 5.7rem;
+    margin-left: 2rem;
+    color: #777;
+}
+
+.leftCoupSideSA{
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+
+.AddNewRecordInCouponsSA{
+
+    
+  border-radius: 19px;
+  background: #2a2d2e;
+stroke-width: 3px;
+stroke: #FFF;
+height: 8.7rem;
+border: 1px solid #777;
+}
+
+.addButtonSaCouponsSA{
+
+    color: #777;
+    font-size: 3.4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.removeButtonSA{
+
+
+   position: relative;
+color: #FFF;
+margin-left: 16rem;
+border: none;
+background-color: transparent;
+width: 1.4rem;
+height: 1.3rem;
+text-align: center;
+font-weight: 700;
+
+}
+
+
+
+.popupCouponSA{
+
+    position: absolute;
+    height: 25rem;
+    width: 25rem;
+    background-color:#1f1f1f ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12%;
+    border : 1px solid #777;
+}
+
+
+.inputInCouponSA{
+outline: none;
+    border: none;
+background-color: #1f1f1f;
+color: #ddd;
+height: 2rem;
+width: 20rem;
+font-size:1rem ;
+}
+
+
+.AddNewCouponSA{
+
+    height: 2rem;
+    width: 6rem;
+    background: #1cd149;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+
+.closePopup{
+
+    color: #fff;
+    border-radius: 100%;
+    height: 1.3rem;
+    width: 1.8rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    background-color: rgb(219, 58, 58);
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    font-weight: 500;
+  
+}
+
+
+.CouponsTitleSA{
+
+    color: #fff;
+    margin-left: 3rem;
+    font-size: 2rem;
+    height: 2rem;
+   
+}

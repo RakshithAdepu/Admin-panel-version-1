@@ -1,0 +1,377 @@
+.overallContForPhotographerProfile {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+
+  .photographerProfileMainCont {
+    height: 100rem;
+    width: 71rem;
+    background: #f2f2f2;
+
+    .mainHeadingForPhotographerProfile {
+      text-align: start;
+      font-size: 2rem;
+      margin-top: 0.6rem;
+      margin-left: 0.5rem;
+    }
+
+    .profileCont {
+      /* border: 1px solid black; */
+      height: 24rem;
+      width: 70rem;
+
+      .titleContForprofileCont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 3rem;
+        width: 70rem;
+        /* border: 1px solid black; */
+
+        .personalDetailsEle {
+          color: #676767;
+          font-size: 0.8rem;
+          margin-right: 53rem;
+        }
+        .editprofileEle {
+          color: #4e6bcd;
+          font-size: 0.6rem;
+        }
+      }
+
+      .mainProfileCont {
+        /* border: 1px solid black; */
+        width: 68rem;
+        height: 20em;
+        margin: auto;
+        background: #ffffff;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .mainProfileContPart1 {
+          height: 20rem;
+          width: 33rem;
+          /* border: 1px solid black; */
+
+          .profilePicAndnameCont {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 1.5rem;
+            width: 20rem;
+            /* border: 1px solid black; */
+
+            .profilePicImg {
+              margin-top: 0.5rem;
+            }
+
+            .nameAndverificationStatus {
+              display: flex;
+              height: 5rem;
+              width: 12rem;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+
+              /* border: 1px solid black; */
+              .nameEle {
+                font-size: 1rem;
+                margin: 0%;
+                margin-right: 5rem;
+              }
+              .verificationStatus {
+                color: #11a030;
+                font-size: 0.8rem;
+                font-weight: 400;
+                margin: 0;
+                margin-right: 5rem;
+
+                .verificationStatusIcon {
+                  height: 0.8rem;
+                  width: 0.8rem;
+                  margin-top: 0.8rem;
+                }
+              }
+            }
+          }
+
+          .rowingtheallotherDetails {
+            display: flex;
+            flex-direction: row;
+          }
+
+          .allOtherDetailsCont {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            /* border: 1px solid black; */
+            width: 15rem;
+            height: 13rem;
+            margin-left: 1rem;
+
+            .infoCont {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-start;
+              /* border: 1px solid black; */
+              width: 14rem;
+              height: 4rem;
+
+              .InfoTop {
+                margin: 0%;
+                color: #676767;
+                margin-bottom: 0.3rem;
+                font-size: 0.7rem;
+                font-weight: 600;
+              }
+              .InfoBotton {
+                margin: 0%;
+                font-size: 0.7rem;
+                color: black;
+                font-weight: 550;
+                text-align: justify;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* .profilePicAndnameCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  .nameAndverificationStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+} */
+
+.holdAndVerifyCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 32rem;
+  height: 6rem;
+
+  .buttonForHold {
+    background: rgba(103, 103, 103, 0.3);
+    border: 2px solid #8d8d8d;
+    border-radius: 20px;
+    height: 2rem;
+    width: 8rem;
+    color: #676767;
+    margin-left: 2rem;
+  }
+
+  .buttonForVerify {
+    background: rgba(42, 192, 4, 0.3);
+    border: 2px solid #3cbb00;
+    border-radius: 20px;
+    height: 2rem;
+    width: 8rem;
+    color: #11a030;
+    margin-left: 10rem;
+  }
+}
+
+/*--------- event details-------- */
+
+.eventDetails {
+  height: auto;
+  width: 70rem;
+  /* border: 1px solid black; */
+
+  .eventTitleCont {
+    height: 3rem;
+    width: 70rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .eventdetailsHeading {
+      color: #676767;
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+
+    .eventdetailsScrollbar {
+      margin-top: auto;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 2.5rem;
+      width: 26rem;
+      /* border: 1px solid black; */
+      background-color: #ffffff;
+      margin-left: 36.5rem;
+      border-radius: 10px 8px 0 0;
+
+      .scrolloftheeventdetails {
+        font-size: 0.7rem;
+        color: #676767;
+        font-weight: 400;
+
+        transition: transform 0.3s ease 0;
+      }
+
+      .scrolloftheeventdetails:hover {
+        font-size: 1rem;
+        color: #010101;
+        font-weight: 500;
+        .scroller {
+          height: 0.15rem;
+          width: auto;
+          background-color: #4e6bcd;
+          border-radius: 5px;
+          margin-top: 0.2rem;
+        }
+      }
+
+      .viewallCont {
+        background-color: #4e6bcd;
+        height: 2.4rem;
+        width: 5rem;
+        color: #ffffff;
+        text-align: center;
+        padding: auto;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.7rem;
+        margin-left: 4rem;
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+
+  .eventDetailsstableCont {
+    height: auto;
+    width: 69rem;
+    /* border: 1px solid black; */
+    background-color: #ffffff;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+}
+
+/* Event details table css */
+
+.table {
+  width: 69rem;
+  text-align: justify;
+}
+
+.borderForTable {
+  border-bottom: 1px solid #67676733;
+  height: 2.3rem;
+  width: auto;
+}
+
+.EquipmentHeading {
+  color: #676767;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.categoryAndSkills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 24rem;
+  width: 70rem;
+  /* border: 1px solid black; */
+
+  .categoryContInPhotographerProfile {
+    height: 24rem;
+    width: 35rem;
+    /* border: 1px solid black; */
+
+    .categoryTitleInPhotographerProfile {
+      color: #676767;
+      font-size: 1rem;
+      margin-left: 2rem;
+      text-align: start;
+    }
+
+    .categoryMainContTable {
+      height: 21rem;
+      width: 32rem;
+      margin-left: 2rem;
+      /* border: 1px solid black; */
+      background-color: #ffffff;
+      border-radius: 20px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.PreproductionSkillsCont {
+  height: 13 rem;
+  width: 30rem;
+  /* border: 1px solid black; */
+
+  .preproductionHeading {
+    color: #676767;
+    font-size: 0.7rem;
+    text-align: start;
+  }
+
+  
+
+  .listItemsOfskills {
+    height: 1.4rem;
+    background-color: #4e6bcd;
+    color: #fefefe;
+    font-size: 0.8rem;
+    list-style: none;
+    border-radius: 20px;
+    width: 10rem;
+    padding-top: 0.4rem;
+    margin: 0.2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+
+
+.SkillsSubCont {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto; 
+  /* border: 1px solid black; */
+  height: 8rem;
+  width: 28rem;
+  margin: 0;
+ 
+
+  
+}

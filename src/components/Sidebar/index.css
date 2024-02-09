@@ -1,0 +1,101 @@
+.sidebar {
+   
+    height: auto;
+    background: #4e6bcd;
+    width: 14rem;
+  
+    .sidebarTitleCont {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  
+      .sidebarImgiconsTitle {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+  
+      .sidebarTitle {
+        color: white;
+        margin-left: 0.5rem;
+        font-size: 1.3rem;
+      }
+    }
+  
+    .sidebarListContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 16rem;
+      .unorderedListSideBar {
+          margin-right: 3.5rem;
+          width: 15rem;
+          margin-top: 1rem;
+          text-align: justify;
+       
+        .listItemSidebar {
+          
+          list-style: none;
+          color: #fefefe;
+          font-weight: 500;
+          margin-left: 0.8rem;
+          font-size: 0.9rem;
+          margin: 3em;
+  
+          .sidebaricons {
+           color: white;
+            margin-right: 0.2em;
+          }
+
+          
+        }
+      }
+    }
+
+    .logoutBtnInSideBar{
+      background: transparent;
+      
+      color: #fefefe;
+      height: 2rem;
+      width: 5rem;
+      border:1px solid #fefefe;
+      border-radius: 5px;
+    }
+
+    
+  }
+
+  
+
+ 
+
+  /* ---------------------Animation -----------------*/
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .sidebarImgiconsTitle{
+    animation: rotate 2.5s linear infinite;
+  }
+
+
+  
+  @keyframes slidetop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+    .sidebarListContainer{
+      animation: slidetop 1s ease-in-out;
+    }

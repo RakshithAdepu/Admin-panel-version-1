@@ -1,0 +1,109 @@
+.sidebarSuperAdmin {
+   
+    height: 40rem;
+    background: #2a2d2e;
+    width: 14rem;
+   
+  
+    .sidebarTitleContSuperAdmin {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  
+      .sidebarImgiconsTitleSuperAdmin {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+  
+      .sidebarTitleSuperAdmin {
+        color: #fefefe;
+        margin-left: 0.5rem;
+        font-size: 1.3rem;
+      }
+    }
+  
+    .sidebarListContainerSuperAdmin {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 16rem;
+      .unorderedListSideBarSuperAdmin {
+          margin-right: 3.5rem;
+          width: 15rem;
+          /* margin-top: 1rem; */
+          text-align: justify;
+          
+       
+        .listItemSidebarSuperAdmin {
+          
+          list-style: none;
+          color: #fefefe;
+          font-weight: 500;
+          margin-left: 0.8rem;
+          font-size: 0.9rem;
+          margin: 2.5em;
+          
+  
+          .sidebariconsSuperAdmin {
+           color: white;
+            margin-right: 0.2em;
+          }
+
+          
+        }
+      }
+    }
+
+    .logoutBtnInSideBarSuperAdmin{
+      background: transparent;
+      
+      color: #fefefe;
+      height: 2rem;
+      width: 5rem;
+      border:1px solid #fefefe;
+      border-radius: 5px;
+    }
+
+    
+  }
+
+
+  .linkNoUnderlineSuperAdmin{
+
+    text-decoration: none;
+  }
+  
+
+ 
+
+  /* ---------------------Animation -----------------*/
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .sidebarImgiconsTitleSuperAdmin{
+    animation: rotate 2.5s linear infinite;
+  }
+
+
+  
+  @keyframes slidetop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+    .sidebarListContainerSuperAdmin{
+      animation: slidetop 1s ease-in-out;
+    }
