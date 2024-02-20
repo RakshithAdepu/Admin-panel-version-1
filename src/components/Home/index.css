@@ -21,7 +21,7 @@
   justify-content: space-around;
   height: 2.5rem;
   width: 70rem;
-  border: 1px solid black;
+/*   border: 1px solid black; */
 }
 
 .adminpanelHeading {
@@ -52,7 +52,7 @@
 }
 
 .mainContTop2 {
-  border: 1px solid black;
+/*   border: 1px solid black; */
   height: 4rem;
   width: 70rem;
   display: flex;
