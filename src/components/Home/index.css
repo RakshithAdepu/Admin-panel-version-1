@@ -50,7 +50,7 @@
   }
 
   .mainContTop2 {
-    /* border: 1px solid black; */
+     border: 1px solid black; 
     height: 4rem;
     width: 70rem;
     display: flex;
