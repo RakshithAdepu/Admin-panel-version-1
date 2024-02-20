@@ -37,12 +37,12 @@ function App() {
   
   useEffect(() => {
    
-    if (!jwtToken) {
+    if (jwtToken) {
       // JWT token does not exist, redirect to the login page
-      navigate("/loginforadmin");
+      navigate("/Home");
     }
     
-  },[navigate("/loginforadmin")]);
+  });
 
   return (
     <div className="App">
