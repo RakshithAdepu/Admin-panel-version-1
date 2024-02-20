@@ -18,7 +18,7 @@ import CategoryMainTable from "./components/CategoryTable/CategoryMainTable";
 import EventCategory from "./components/EventCategory/EventCategory";
 import Payment from "./components/Payments/Payment";
 import EventBookingRecords from "./components/EventBookingRecords/EventBookingRecords";
-import NotFound from "./components/NotFound/NotFound";
+// import NotFound from "./components/NotFound/NotFound";
 import CouponsSuperAdmin from "./components/SuperAdminPanelFolder/Coupons/CouponsSuperAdmin";
 import ProductOrderDetails from "./components/ProductOrderDetails/ProductOrderDetails";
 import "./App.css";
@@ -63,7 +63,7 @@ function App() {
         <Route path="/eventBookingRecords" element={<EventBookingRecords />} />
         <Route path="/productOrderDetails" element={<ProductOrderDetails />} />
         <Route path="/payments" element={<Payment />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<LoginForAdmin/>} />
       </Routes>
     </div>
   );
